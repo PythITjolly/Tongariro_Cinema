@@ -1,0 +1,51 @@
+.home {
+  margin: 0;
+  padding: 5rem;
+}
+
+.HeroImg {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  padding-top: 15px;
+}
+
+.tagline{
+  text-align: center;
+  color: #75DDDD;
+  margin-top: 50px;
+}
+
+.description{
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin: 0px 500px;
+
+
+}
+
+@media only screen and (max-width: 800px)
+{
+  .HeroImg {
+    max-width: 100%;
+    height: auto;
+}
+
+.tagline{
+  text-align: center;
+  color: #75DDDD;
+  font-size: small;
+  padding-top: 0px;
+
+}
+
+.description{
+  text-align: left;
+  color: white;
+  font-size: small;
+  text-align: center;
+  margin: 20px;
+
+}
+}

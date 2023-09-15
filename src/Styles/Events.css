@@ -1,0 +1,44 @@
+.Eventsimage{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.description{
+    color: #a7bfd5;
+   
+    font-weight: 300;
+   
+   
+}
+  
+.description{
+    text-align: center;
+    font-weight: 300;
+    margin: 3px 0;
+    color:#d1de4c;
+    line-height: 22px;
+}
+.Eventsimage-col{
+    position: relative;
+    overflow: hidden;
+}
+.Eventsimage-col img{
+    width: 75%;
+    padding: 20px 12px;
+}
+.btn{
+    color:#172A3A;
+    background-color: #d1de4c;
+}
+
+@media(max-width: 700px)
+  {
+    .description
+    {
+        margin: 10px;
+        padding: 0px 20px 0px 20px;
+        box-sizing: border-box;
+        color:#a7bfd5;
+    }
+}

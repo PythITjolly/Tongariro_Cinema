@@ -1,0 +1,55 @@
+.showing{
+    text-align: center;
+}
+
+.movie-type {
+    text-align: center;
+    margin: 20px auto;
+    display: flex; /* Use Flexbox to arrange items horizontally */
+    justify-content: space-between; /* Add space between the cards */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if the screen is narrow */
+  }
+.card{
+   margin: 20px;
+   background: #75DDDD;
+   padding: 1px;
+}
+
+.card-title{
+  color: #d1de4c;
+  background-color: #75DDDD;
+}
+
+.card-text{
+    text-align: left;
+    color: #d1de4c;
+}
+
+.card-description{
+    color:#75DDDD
+}
+
+.btn{
+    color:#172A3A;
+    background-color: #4dbf00;
+}
+
+@media only screen and (max-width: 700px)
+{
+
+  .showing{
+    padding-top: 50px;
+    margin-top: 50px;
+    }
+
+  .card {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-img-top{
+    max-width: 100%;
+    height: auto;
+
+}
+}

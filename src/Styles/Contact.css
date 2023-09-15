@@ -1,0 +1,45 @@
+.global-padding {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(232, 240, 243);
+
+  }
+  
+  
+    .formulario-contenedor{
+     width: 60%; 
+     margin: auto; 
+    }
+  
+    .formulario-contenedor form {
+      width: 100%;
+      margin: 100px;
+    }
+
+  body {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  input,
+  textarea,
+  select,
+  button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #eee;
+    padding-bottom: 50px;
+  }
+  
